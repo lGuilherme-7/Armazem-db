@@ -1,4 +1,4 @@
-// Header Scroll Effect
+// index.php-public 
     const header = document.getElementById('header');
     const scrollTop = document.getElementById('scrollTop');
 
@@ -98,3 +98,6 @@
             // Aqui você abriria um modal com detalhes do produto
         });
     });
+
+// fim do index.php-public
+
