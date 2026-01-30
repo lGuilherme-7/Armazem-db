@@ -483,7 +483,7 @@
 
     .coupon-input {
         flex: 1;
-        padding: 0.875rem 1rem;
+        padding: 0.875rem 0.4rem;
         border: 2px solid var(--light-gray);
         border-radius: 12px;
         font-family: var(--font-primary);
@@ -497,7 +497,7 @@
     }
 
     .coupon-btn {
-        padding: 0.875rem 1.5rem;
+        padding: 0.825rem 1rem;
         background: var(--primary-graphite);
         color: var(--white);
         border: none;
