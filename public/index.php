@@ -2048,7 +2048,7 @@ button {
                             <i class="fab fa-youtube"></i>
                         </a>
                         <a href="https://wa.me/5581987028550?text=ol%C3%A1%2C%20o%20site%20ainda%20est%C3%A1%20em%20constru%C3%A7%C3%A3o%20%3A(%0A(%20aguarde%20atualiza%C3%A7%C3%B5es...%F0%9F%98%9D)"
-                            class="social-btn">
+                            class="social-btn" target="_blank">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                     </div>
