@@ -251,7 +251,12 @@
         top: 1.5rem;
         right: 1.5rem;
         display: flex;
-        gap: 0.5rem;
+        gap: 1rem;
+
+    }
+
+    .gallery-btn i {
+        font-size: 1rem;
     }
 
     .gallery-btn {
@@ -893,7 +898,7 @@
     }
 
     .section-header {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .section-title {

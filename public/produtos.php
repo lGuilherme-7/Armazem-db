@@ -364,6 +364,8 @@
         cursor: pointer;
     }
 
+
+
     /* ===========================
            PRODUCTS MAIN
         =========================== */
@@ -833,7 +835,9 @@
                     </h3>
                     <div class="price-range">
                         <div class="price-inputs">
-                            <input type="number" class="price-input" placeholder="Mín" id="priceMin" value="0">
+                            <!-- <input type="number" class="price-input" placeholder="Mín" id="priceMin" value="0"> 
+                             se for o caso de adicionar depois.
+                            -->
                             <input type="number" class="price-input" placeholder="Máx" id="priceMax" value="1000">
                         </div>
                         <input type="range" class="price-slider" min="0" max="1000" value="500" id="priceSlider">
