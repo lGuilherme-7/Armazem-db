@@ -47,6 +47,9 @@
         color: var(--dark-gray);
     }
 
+
+
+
     /* ============================================
            SIDEBAR
         ============================================ */
@@ -61,6 +64,8 @@
         overflow-y: auto;
         z-index: 1000;
         transition: 0.3s;
+        overflow-y: auto;
+        scrollbar-width: none;
     }
 
     .sidebar::-webkit-scrollbar {
