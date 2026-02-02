@@ -44,7 +44,9 @@
         background: #34495E;
         color: #fff;
         overflow-y: auto;
-        z-index: 1000
+        z-index: 1000;
+        overflow-y: auto;
+        scrollbar-width: none;
     }
 
     .logo {
@@ -649,7 +651,8 @@
                 <div class="table-header">
                     <h2>Lista de Produtos</h2>
                     <div style="color:#BDC3C7;font-size:0.875rem">Mostrando <strong>1-20</strong> de
-                        <strong>507</strong> produtos</div>
+                        <strong>507</strong> produtos
+                    </div>
                 </div>
                 <table>
                     <thead>

@@ -44,7 +44,9 @@
         background: #34495E;
         color: #fff;
         overflow-y: auto;
-        z-index: 1000
+        z-index: 1000;
+        scrollbar-width: none;
+        overflow-y: auto;
     }
 
     .logo {
@@ -753,7 +755,8 @@
                                 <div style="display:flex;gap:1rem;align-items:start">
                                     <div
                                         style="width:40px;height:40px;background:rgba(46,134,222,0.1);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#2E86DE">
-                                        <i class="fas fa-lightbulb"></i></div>
+                                        <i class="fas fa-lightbulb"></i>
+                                    </div>
                                     <div>
                                         <h4 style="font-size:0.95rem;margin-bottom:0.25rem">Dica</h4>
                                         <p style="font-size:0.85rem;color:#7F8C8D">Use ícones diferentes para cada
@@ -763,7 +766,8 @@
                                 <div style="display:flex;gap:1rem;align-items:start">
                                     <div
                                         style="width:40px;height:40px;background:rgba(39,174,96,0.1);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#27AE60">
-                                        <i class="fas fa-check"></i></div>
+                                        <i class="fas fa-check"></i>
+                                    </div>
                                     <div>
                                         <h4 style="font-size:0.95rem;margin-bottom:0.25rem">Boas Práticas</h4>
                                         <p style="font-size:0.85rem;color:#7F8C8D">Mantenha nomes claros e objetivos

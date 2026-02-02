@@ -43,7 +43,9 @@
         background: #34495E;
         color: #fff;
         overflow-y: auto;
-        z-index: 1000
+        z-index: 1000;
+        overflow-y: auto;
+        scrollbar-width: none;
     }
 
     .logo {
