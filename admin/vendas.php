@@ -697,7 +697,7 @@
                         </div>
                     </div>
                     <div class="chart-wrapper">
-                        <canvas id="salesChart"></canvas>
+                        <canvas id="salesChart" height="330"></canvas>
                     </div>
                 </div>
 
@@ -707,7 +707,7 @@
                             <div class="chart-title"><i class="fas fa-chart-pie"></i>Vendas por Categoria</div>
                         </div>
                         <div class="chart-wrapper">
-                            <canvas id="categoryChart"></canvas>
+                            <canvas id="categoryChart" height="370"></canvas>
                         </div>
                     </div>
                 </div>

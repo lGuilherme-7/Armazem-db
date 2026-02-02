@@ -771,7 +771,7 @@
                 <div class="stat-card">
                     <div>
                         <h4>Faturamento</h4>
-                        <div class="value">R$ 89.5k</div>
+                        <div class="value">R$ 189.5k</div>
                     </div>
                     <div class="stat-icon icon-yellow"><i class="fas fa-dollar-sign"></i></div>
                 </div>
@@ -941,11 +941,12 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="pagination"><button class="page-btn"><i class="fas fa-chevron-left"></i></button><button
-                        class="page-btn active">1</button><button class="page-btn">2</button><button
+                <div class="pagination"><button class="page-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="page-btn active">1</button><button class="page-btn">2</button><button
                         class="page-btn">3</button><button class="page-btn">4</button><button
                         class="page-btn">...</button><button class="page-btn">25</button><button class="page-btn"><i
-                            class="fas fa-chevron-right"></i></button></div>
+                            class="fas fa-chevron-right"></i></button>
+                </div>
             </div>
         </div>
     </main>

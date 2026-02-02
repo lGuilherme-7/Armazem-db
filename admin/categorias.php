@@ -783,7 +783,7 @@
                             <h2><i class="fas fa-chart-pie"></i> Distribuição</h2>
                         </div>
                         <div class="card-body">
-                            <canvas id="categoryChart" height="200"></canvas>
+                            <canvas id="categoryChart" height="370"></canvas>
                         </div>
                     </div>
                 </div>

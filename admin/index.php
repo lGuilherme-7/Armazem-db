@@ -1017,7 +1017,7 @@
                         </div>
                     </div>
                     <div class="chart-wrapper">
-                        <canvas id="salesChart"></canvas>
+                        <canvas id="salesChart" height="200"></canvas>
                     </div>
 
                 </div>
@@ -1027,7 +1027,7 @@
                         <h3 class="chart-title">Status dos Pedidos</h3>
                     </div>
                     <div class="chart-wrapper">
-                        <canvas id="salesChart"></canvas>
+                        <canvas id="ordersChart" height="230"></canvas>
                     </div>
 
                 </div>

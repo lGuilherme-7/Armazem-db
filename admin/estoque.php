@@ -469,7 +469,9 @@
     }
 
     .badge-category {
-        padding: 0.35rem 0.75rem;
+        display: flex;
+        align-items: center;
+        padding: 0.25rem 0.75rem;
         border-radius: 50px;
         font-size: 0.75rem;
         font-weight: 700
@@ -940,8 +942,8 @@
                             </td>
                             <td>25 un</td>
                             <td><span class="badge-category badge-orange"
-                                    style="background:rgba(192,57,43,0.15);color:#C0392B;font-weight:800">✕ SEM
-                                    ESTOQUE</span></td>
+                                    style="background:rgba(192,57,43,0.15);color:#C0392B;font-weight:800">
+                                    ✕ SEM ESTOQUE</span></td>
                             <td>
                                 <div class="action-btns">
                                     <button class="action-btn add" onclick="openAddStock('Arame Galvanizado')"
