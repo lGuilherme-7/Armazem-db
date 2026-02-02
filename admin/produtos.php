@@ -753,7 +753,8 @@
                                 <div class="action-btns"><button class="action-btn view"><i
                                             class="fas fa-eye"></i></button><button class="action-btn edit"><i
                                             class="fas fa-edit"></i></button><button class="action-btn delete"
-                                        onclick="confirmDelete('Lâmpada')"><i class="fas fa-trash"></i></button></div>
+                                        onclick="confirmDelete('Lâmpada')"><i class="fas fa-trash"></i></button>
+                                </div>
                             </td>
                         </tr>
                     </tbody>
