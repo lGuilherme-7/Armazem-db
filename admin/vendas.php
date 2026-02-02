@@ -600,7 +600,7 @@
                         class="badge">12</span></a>
                 <a href="estoque.php" class="menu-item"><i class="fas fa-warehouse"></i>Estoque</a>
                 <a href="vendas.php" class="menu-item active"><i class="fas fa-chart-line"></i>Vendas</a>
-                <a href="../logout.php" class="menu-item"><i class="fas fa-sign-out-alt"></i>Sair</a>
+                <a href="../public/logout.php" class="menu-item"><i class="fas fa-sign-out-alt"></i>Sair</a>
             </div>
         </nav>
         <div class="user-info">
