@@ -19,6 +19,7 @@ define('DB_NAME', 'construmax');
 define('DB_USER', 'root');
 define('DB_PASS', ''); // Senha padrão do XAMPP/WAMP
 define('DB_CHARSET', 'utf8mb4');
+define('banco_de_dados', 'construmax'); // 
 define('AMBIENTE', 'desenvolvimento'); // 'desenvolvimento' ou 'producao'
 
 // ============================================
