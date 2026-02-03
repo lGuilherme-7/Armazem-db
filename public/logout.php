@@ -1,4 +1,12 @@
 <?php
+require_once '../inc/auth.php';
+
+fazerLogout();
+
+header("Location: /armazem/public/login.php");
+exit;
+?>
+<?php
 /**
  * LOGOUT.PHP
  * ConstruMax - Sistema de Logout

@@ -1,3 +1,61 @@
+<?php
+require_once '../inc/auth.php';
+
+// Se já está logado, redireciona
+if (estaLogado()) {
+    header("Location: /armazem/admin/index.php");
+    exit;
+}
+
+// Processa login
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $email = $_POST['email'] ?? '';
+    $senha = $_POST['senha'] ?? '';
+    
+    $usuario = fazerLogin($email, $senha);
+    
+    if ($usuario) {
+        // Login OK!
+        header("Location: /armazem/admin/index.php");
+        exit;
+    } else {
+        definirMensagemErro("Email ou senha incorretos!");
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login - ConstruMax</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="login-box">
+        <h1>🏗️ ConstruMax</h1>
+
+        <?php exibirMensagens(); ?>
+
+        <form method="POST">
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Senha:</label>
+                <input type="password" name="senha" required>
+            </div>
+
+            <button type="submit" class="btn">Entrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
