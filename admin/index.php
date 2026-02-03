@@ -1,4 +1,16 @@
-<!DOCTYPE html>
+<?php
+require_once '../inc/auth.php';
+protegerPagina(true);
+
+$tituloHeader = 'Produtos'; // Muda conforme a página
+$breadcrumb = 'Produtos';
+
+require_once '../inc/header.php';
+?>
+
+<!-- SEU HTML AQUI -->
+
+<?php require_once '../inc/footer.php'; ?><!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
